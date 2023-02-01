@@ -1,4 +1,6 @@
 # Handling-Missing-Value
+There are multiple ways of handling missing data and this varies case by case. There is no universal best way in dealing with the missing data. Use your best judgement and explore different options to determine which method is best for your data set.
+
 1. Drop rows or columns that have a missing value - df.dropna()
 2. Drop rows or columns, on the basis a missing value frequency - df.dropna(how='all')
 3. Drop rows or columns based on a threshold value -- For instance, “thresh=4” means that the rows that have at least 4 non-missing values will be kept. The other ones will be dropped. - df.dropna(thresh=4)
