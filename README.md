@@ -1,4 +1,4 @@
-# Handling-Missing-Value
+# Handling Missing Value
 There are multiple ways of handling missing data and this varies case by case. There is no universal best way in dealing with the missing data. Use your best judgement and explore different options to determine which method is best for your data set.
 
 1. Drop rows or columns that have a missing value - df.dropna()
